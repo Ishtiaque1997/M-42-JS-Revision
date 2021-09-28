@@ -33,4 +33,17 @@ function subtract(num1,num2){
  return res;
 }
 const number=subtract(23,11);
-console.log(number)
+// console.log(number)
+
+
+//6. object
+//access property
+const student={
+ name:'sajib',
+ age:'45',
+ movies:['king khan','mastan']
+}
+const myVar='age';
+console.log(student.name)//access by property
+console.log(student['age'])//access by string
+console.log(student[myVar])//access by property name in variable
